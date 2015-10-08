@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.1"
   s.summary      = "Beautiful VRNTableHeaderView. Written in Swift"
   s.homepage     = "https://github.com/vikmeup/VRNTableHeaderView"
-  s.screenshots  = "https://raw.githubusercontent.com/vikmeup/VRNTableHeaderView/master/1.png", "https://raw.githubusercontent.com/vikmeup/VRNTableHeaderView/master/1.png"
+  #s.screenshots  = "https://raw.githubusercontent.com/vikmeup/VRNTableHeaderView/master/1.png", "https://raw.githubusercontent.com/vikmeup/VRNTableHeaderView/master/1.png"
 
   # s.license      = "MIT (example)"
   s.license      = { :type => "MIT", :file => "LICENCE" }
