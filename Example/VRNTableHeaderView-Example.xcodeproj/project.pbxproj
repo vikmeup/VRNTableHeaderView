@@ -12,9 +12,9 @@
 		77B18AB01BC638850090E087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B18AAE1BC638850090E087 /* Main.storyboard */; };
 		77B18AB21BC638850090E087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B18AB11BC638850090E087 /* Assets.xcassets */; };
 		77B18AB51BC638850090E087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B18AB31BC638850090E087 /* LaunchScreen.storyboard */; };
-		77B18AC01BC6392D0090E087 /* VRNTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B18ABD1BC6392D0090E087 /* VRNTableHeaderView.swift */; };
-		77B18AC11BC6392D0090E087 /* VRNTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B18ABE1BC6392D0090E087 /* VRNTableViewCell.swift */; };
-		77B18AC21BC6392D0090E087 /* VRNTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B18ABF1BC6392D0090E087 /* VRNTableViewCell.xib */; };
+		77B18AC61BC63E740090E087 /* VRNTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B18AC31BC63E740090E087 /* VRNTableHeaderView.swift */; };
+		77B18AC71BC63E740090E087 /* VRNTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B18AC41BC63E740090E087 /* VRNTableViewCell.swift */; };
+		77B18AC81BC63E740090E087 /* VRNTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B18AC51BC63E740090E087 /* VRNTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		77B18AB11BC638850090E087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77B18AB41BC638850090E087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B18AB61BC638850090E087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77B18ABD1BC6392D0090E087 /* VRNTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRNTableHeaderView.swift; sourceTree = "<group>"; };
-		77B18ABE1BC6392D0090E087 /* VRNTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRNTableViewCell.swift; sourceTree = "<group>"; };
-		77B18ABF1BC6392D0090E087 /* VRNTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VRNTableViewCell.xib; sourceTree = "<group>"; };
+		77B18AC31BC63E740090E087 /* VRNTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRNTableHeaderView.swift; path = ../../VRNTableHeaderView/VRNTableHeaderView.swift; sourceTree = "<group>"; };
+		77B18AC41BC63E740090E087 /* VRNTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRNTableViewCell.swift; path = ../../VRNTableHeaderView/VRNTableViewCell.swift; sourceTree = "<group>"; };
+		77B18AC51BC63E740090E087 /* VRNTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VRNTableViewCell.xib; path = ../../VRNTableHeaderView/VRNTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +75,9 @@
 		77B18ABC1BC638BE0090E087 /* VRNTableHeaderView */ = {
 			isa = PBXGroup;
 			children = (
-				77B18ABD1BC6392D0090E087 /* VRNTableHeaderView.swift */,
-				77B18ABE1BC6392D0090E087 /* VRNTableViewCell.swift */,
-				77B18ABF1BC6392D0090E087 /* VRNTableViewCell.xib */,
+				77B18AC31BC63E740090E087 /* VRNTableHeaderView.swift */,
+				77B18AC41BC63E740090E087 /* VRNTableViewCell.swift */,
+				77B18AC51BC63E740090E087 /* VRNTableViewCell.xib */,
 			);
 			name = VRNTableHeaderView;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			files = (
 				77B18AB51BC638850090E087 /* LaunchScreen.storyboard in Resources */,
 				77B18AB21BC638850090E087 /* Assets.xcassets in Resources */,
-				77B18AC21BC6392D0090E087 /* VRNTableViewCell.xib in Resources */,
+				77B18AC81BC63E740090E087 /* VRNTableViewCell.xib in Resources */,
 				77B18AB01BC638850090E087 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,9 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B18AC01BC6392D0090E087 /* VRNTableHeaderView.swift in Sources */,
+				77B18AC61BC63E740090E087 /* VRNTableHeaderView.swift in Sources */,
 				77B18AAD1BC638850090E087 /* TableViewController.swift in Sources */,
-				77B18AC11BC6392D0090E087 /* VRNTableViewCell.swift in Sources */,
+				77B18AC71BC63E740090E087 /* VRNTableViewCell.swift in Sources */,
 				77B18AAB1BC638850090E087 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
