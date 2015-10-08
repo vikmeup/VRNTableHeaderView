@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77B18AAB1BC638850090E087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B18AAA1BC638850090E087 /* AppDelegate.swift */; };
+		77B18AAD1BC638850090E087 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B18AAC1BC638850090E087 /* TableViewController.swift */; };
+		77B18AB01BC638850090E087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B18AAE1BC638850090E087 /* Main.storyboard */; };
+		77B18AB21BC638850090E087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B18AB11BC638850090E087 /* Assets.xcassets */; };
+		77B18AB51BC638850090E087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B18AB31BC638850090E087 /* LaunchScreen.storyboard */; };
+		77B18AC01BC6392D0090E087 /* VRNTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B18ABD1BC6392D0090E087 /* VRNTableHeaderView.swift */; };
+		77B18AC11BC6392D0090E087 /* VRNTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B18ABE1BC6392D0090E087 /* VRNTableViewCell.swift */; };
+		77B18AC21BC6392D0090E087 /* VRNTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B18ABF1BC6392D0090E087 /* VRNTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77B18AA71BC638850090E087 /* VRNTableHeaderView-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VRNTableHeaderView-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B18AAA1BC638850090E087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77B18AAC1BC638850090E087 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		77B18AAF1BC638850090E087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77B18AB11BC638850090E087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77B18AB41BC638850090E087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77B18AB61BC638850090E087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B18ABD1BC6392D0090E087 /* VRNTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRNTableHeaderView.swift; sourceTree = "<group>"; };
+		77B18ABE1BC6392D0090E087 /* VRNTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRNTableViewCell.swift; sourceTree = "<group>"; };
+		77B18ABF1BC6392D0090E087 /* VRNTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VRNTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77B18AA41BC638850090E087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77B18A9E1BC638850090E087 = {
+			isa = PBXGroup;
+			children = (
+				77B18AA91BC638850090E087 /* VRNTableHeaderView-Example */,
+				77B18AA81BC638850090E087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77B18AA81BC638850090E087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77B18AA71BC638850090E087 /* VRNTableHeaderView-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77B18AA91BC638850090E087 /* VRNTableHeaderView-Example */ = {
+			isa = PBXGroup;
+			children = (
+				77B18ABC1BC638BE0090E087 /* VRNTableHeaderView */,
+				77B18AAA1BC638850090E087 /* AppDelegate.swift */,
+				77B18AAC1BC638850090E087 /* TableViewController.swift */,
+				77B18AAE1BC638850090E087 /* Main.storyboard */,
+				77B18AB11BC638850090E087 /* Assets.xcassets */,
+				77B18AB31BC638850090E087 /* LaunchScreen.storyboard */,
+				77B18AB61BC638850090E087 /* Info.plist */,
+			);
+			name = "VRNTableHeaderView-Example";
+			path = "VRNTableHeaderView VRNTableHeaderView-Example";
+			sourceTree = "<group>";
+		};
+		77B18ABC1BC638BE0090E087 /* VRNTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				77B18ABD1BC6392D0090E087 /* VRNTableHeaderView.swift */,
+				77B18ABE1BC6392D0090E087 /* VRNTableViewCell.swift */,
+				77B18ABF1BC6392D0090E087 /* VRNTableViewCell.xib */,
+			);
+			name = VRNTableHeaderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77B18AA61BC638850090E087 /* VRNTableHeaderView-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B18AB91BC638850090E087 /* Build configuration list for PBXNativeTarget "VRNTableHeaderView-Example" */;
+			buildPhases = (
+				77B18AA31BC638850090E087 /* Sources */,
+				77B18AA41BC638850090E087 /* Frameworks */,
+				77B18AA51BC638850090E087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VRNTableHeaderView-Example";
+			productName = "VRNTableHeaderView VRNTableHeaderView-Example";
+			productReference = 77B18AA71BC638850090E087 /* VRNTableHeaderView-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77B18A9F1BC638850090E087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Viktor Radchenko";
+				TargetAttributes = {
+					77B18AA61BC638850090E087 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 77B18AA21BC638850090E087 /* Build configuration list for PBXProject "VRNTableHeaderView-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77B18A9E1BC638850090E087;
+			productRefGroup = 77B18AA81BC638850090E087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77B18AA61BC638850090E087 /* VRNTableHeaderView-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77B18AA51BC638850090E087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B18AB51BC638850090E087 /* LaunchScreen.storyboard in Resources */,
+				77B18AB21BC638850090E087 /* Assets.xcassets in Resources */,
+				77B18AC21BC6392D0090E087 /* VRNTableViewCell.xib in Resources */,
+				77B18AB01BC638850090E087 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77B18AA31BC638850090E087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B18AC01BC6392D0090E087 /* VRNTableHeaderView.swift in Sources */,
+				77B18AAD1BC638850090E087 /* TableViewController.swift in Sources */,
+				77B18AC11BC6392D0090E087 /* VRNTableViewCell.swift in Sources */,
+				77B18AAB1BC638850090E087 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77B18AAE1BC638850090E087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B18AAF1BC638850090E087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77B18AB31BC638850090E087 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B18AB41BC638850090E087 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77B18AB71BC638850090E087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77B18AB81BC638850090E087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77B18ABA1BC638850090E087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VRNTableHeaderView VRNTableHeaderView-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vrn.VRNTableHeaderView-Example";
+				PRODUCT_NAME = "VRNTableHeaderView-Example";
+			};
+			name = Debug;
+		};
+		77B18ABB1BC638850090E087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VRNTableHeaderView VRNTableHeaderView-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vrn.VRNTableHeaderView-Example";
+				PRODUCT_NAME = "VRNTableHeaderView-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77B18AA21BC638850090E087 /* Build configuration list for PBXProject "VRNTableHeaderView-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B18AB71BC638850090E087 /* Debug */,
+				77B18AB81BC638850090E087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B18AB91BC638850090E087 /* Build configuration list for PBXNativeTarget "VRNTableHeaderView-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B18ABA1BC638850090E087 /* Debug */,
+				77B18ABB1BC638850090E087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77B18A9F1BC638850090E087 /* Project object */;
+}
