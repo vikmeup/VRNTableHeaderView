@@ -9,7 +9,7 @@ let kVRNTableHeaderViewCellIdentified = "kVRNTableHeaderViewCellIdentified"
 
 extension UITableView {
 
-    func showTableHeaderView(text: String, image: UIImage) {
+    public func showTableHeaderView(text: String, image: UIImage) {
         self.registerNib(UINib(nibName: "VRNTableViewCell", bundle: nil), forCellReuseIdentifier: kVRNTableHeaderViewCellIdentified)
         let headerCell = self.dequeueReusableCellWithIdentifier(kVRNTableHeaderViewCellIdentified) as! VRNTableViewCell!
         headerCell.iconImageView.image = image
